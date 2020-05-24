@@ -14,11 +14,27 @@
         <div id="test">
 
             <input id="some" type="text">
-            
-                <button onclick="showError()">ClickMe</button>
+                <h2 id="colorChange">I lobve to practice everyday</h2>
+                <button onclick="showError()" onmouseover="document.getElementById('colorChange').style.color='red'">ClickMe</button>
                 <p id="msg"></p>
+
+                <ul id="change">
+                <li >I love California</li>
+                <li>I want to go there</li>
+                <li>I hate texas state</li>
+            </ul>
+
+            <form id="myForm" action="#">
+                FirstName: <input type="text" name="fname" value="test"><br>
+                LastName: <input type="text" name="lname" value="test"><br>
+                <button onclick="myFunction()">GetValue</button>
+            </form>
+            <div>
+                    <h3 id="displaytext"></h3>
+                </div>
+            
                     
-        <script src="./numbers.js">
+        <script src="./getDetails.js">
         
             //conditionals
             
